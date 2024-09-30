@@ -14,7 +14,6 @@ const useAccountState = () => {
   const setUserData = (userData: IUserData) => {
     accountState.value.isAuthenticated = true;
     accountState.value.userData = userData;
-    console.log("accountState.value.userData", accountState.value);
   };
 
   return {
