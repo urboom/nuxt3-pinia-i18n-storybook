@@ -15,7 +15,6 @@ export default defineEventHandler(async (event) => {
   await sleep(timeout);
 
   if (query.category === "title") {
-    console.log(title);
     return title;
   }
 });
