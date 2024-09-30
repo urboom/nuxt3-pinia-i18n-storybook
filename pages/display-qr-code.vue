@@ -46,8 +46,6 @@
     toastSuccess: t("pages.display-qr-code.qrCodeConfig.toastDisplayText"),
     summaryContent: t("pages.display-qr-code.qrCodeConfig.summaryContent")
   });
-
-  console.log(qrCodeConfig.value);
 </script>
 
 <style lang="scss" scoped>
