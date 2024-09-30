@@ -38,12 +38,7 @@
   const key = useRuntimeConfig().public.openWeatherApiKey;
   const lat = 35.2034136;
   const long = -1.6663373;
-
   const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=${key}`;
-  // const url = `https://api.openweathermap.org/data/3.0/onecall?lat=${lat}&lon=${long}&appid=${key}`;
-
-  console.log("key: ", key);
-  console.log(process.env.NODE_ENV);
 
   const {
     data: weatherData,
